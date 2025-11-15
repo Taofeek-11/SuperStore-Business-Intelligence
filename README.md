@@ -262,7 +262,7 @@ Star Schema Design:
 ## Screenshots
 
 ### Executive Summary
-![Executive Dashboard Overview](images/executive-summary.png)
+![Executive Dashboard Overview](Dashboard/Executive-Summary.png)
 *Strategic KPIs, critical alerts, and performance scorecards*
 
 ### Customer Analysis
