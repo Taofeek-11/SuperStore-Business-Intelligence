@@ -79,164 +79,6 @@ Despite revenue growth, the business faces:
 - Drill-down capabilities (Region → State → City)
 - Comparative analysis (YoY, segment benchmarking)
 
-## Dashboard Pages
-
-### 1️⃣ Executive Summary
-**Purpose**: C-suite decision support with critical alerts and quick wins
-
-**Key Metrics**:
-- Total Revenue: $733K (+12.3% YoY)
-- Net Profit: $93K (12.7% margin)
-- Customer Base: 793 (+5.2% YoY)
-- Average Order Value: $229
-
-**Insights**:
-- Critical Alerts: 3 high-priority issues identified
-- Quick Wins: 3 immediate opportunities totaling $105K
-- Performance Scorecards: Customer Health, Category Performance, Regional Performance
-- Strategic Priorities: Top 3 initiatives for next quarter
-
----
-
-### 2️⃣ Customer Analysis (RFM Segmentation)
-**Purpose**: Customer health monitoring and retention strategy
-
-**Segments**:
-- **Champions** (99 customers, 17%): $121K revenue, 78% loyalty, $3,250 CLV
-- **Loyal** (131 customers, 23%): $114K revenue, 78% repeat rate
-- **At Risk** (263 customers, 46%): $217K revenue at risk, declining activity
-- **Potential** (80 customers, 14%): $19K revenue, growth opportunity
-
-**Key Insights**:
-- Top 20% customers (481) drive 65% revenue
-- Corporate segment: Highest CLV ($3,250) and loyalty (78%)
-- Repeat purchase rates: Consumer 79%, Corporate 78%, Home Office 71%
-- Customer concentration risk: Champion segment vital for profitability
-
-**Actions**:
-- Prioritize sales and service to Champions & Loyal
-- Implement win-back campaigns for At Risk (potential $87K recovery)
-- Model Corporate segment strategies for growth in other segments
-
----
-
-### 3️⃣ Category Performance
-**Purpose**: Product portfolio optimization and profitability analysis
-
-**Performance**:
-- **Technology**: $836K revenue, 18% margin ✅ (Best performer)
-- **Office Supplies**: $719K revenue, 12% margin → (Steady)
-- **Furniture**: $742K revenue, -1% margin ⚠️ (Crisis)
-
-**Subcategory Analysis**:
-- **Top 5 Performers**: Copiers (61% margin), Phones (57%), Accessories (57%), Appliances (54%), Paper (64%)
-- **Bottom 5 Loss-Makers**: Tables (-52% margin), Bookcases (-50%), Machines (-50%), Binders (-46%), Chairs (-48%)
-
-**Key Findings**:
-- Phones & Copiers drive Technology profitability
-- Art supplies and Binders performing well in Office category
-- Tables and Bookcases destroying Furniture profitability
-
-**Actions**:
-- Scale Technology (Copiers, Phones) with 12% margin improvement potential
-- Furniture Crisis: Discontinue Tables & Bookcases or renegotiate supplier costs
-- Office Supplies: Reduce SKU count, focus on high-margin Binders & Art
-
----
-
-### 4️⃣ Regional Performance
-**Purpose**: Geographic expansion and cost optimization
-
-**Regional Breakdown**:
-- **Central**: $725K revenue, 15% GPM ⭐ (Best performer)
-- **East**: $678K revenue, 12% GPM → (Moderate)
-- **West**: $592K revenue, 11% GPM ⚠️ (High shipping costs)
-- **South**: $391K revenue, 8% GPM 🚨 (Multiple unprofitable states)
-
-**State-Level Insights**:
-- **Highly Profitable**: Massachusetts (24% GPM), Washington (22%), Alabama (20%)
-- **Problem States**: Multiple South region states unprofitable due to excessive discounting
-- **Shipping Cost Issues**: California ($62/order), Washington ($50/order), Arizona ($40/order)
-
-**Key Patterns**:
-- Central region: Model for efficiency (Illinois, Wisconsin performing well)
-- West region: Strong revenue but shipping costs eroding margins
-- South region: Needs immediate attention - reduce discounts by 50%
-
-**Actions**:
-- Scale Central region operations (Illinois, Wisconsin expansion)
-- West: Open fulfillment center or negotiate UPS/FedEx regional contracts
-- South: Reduce losses by 50%, cut discounts, consider state exit strategy
-
----
-
-### 5️⃣ Profitability Analysis
-**Purpose**: Margin optimization through cost structure analysis
-
-**Cost Structure**:
-- Gross Profit: $283K (38.6% of revenue)
-- Net Profit: $93K (12.7% margin)
-- Product Costs: $450K (61.4%)
-- Shipping Costs: $95K (13.0%)
-- Discounts: $82K (11.2%)
-- Returns: $13K (1.8%)
-
-**Shipping Analysis**:
-- **By Mode**: Standard ($19/order, 14% margin) vs Same Day ($59/order, 6% margin)
-- **By Region**: West $49/order vs Central $22/order (2.3x difference)
-- **Opportunity**: $28K savings through mode optimization and regional negotiation
-
-**Discount Impact**:
-- **No Discount**: 892 orders, 17.1% margin
-- **1-10% Discount**: 1,234 orders, 13.3% margin
-- **11-20% Discount**: 687 orders, 7.7% margin
-- **21-30% Discount**: 256 orders, 3.8% margin
-- **30%+ Discount**: 134 orders, 1.5% margin ⚠️
-
-**Key Findings**:
-- Same Day shipping: Only 7% of orders but worst margin (6.1%)
-- Discounts >20%: 390 orders destroying profitability at 1.5% margin
-- Combined High Discount + Premium Shipping: 178 orders at 2.3% margin
-- Optimal profile: No discount + Standard shipping = 18.2% margin
-
-**Actions**:
-- Limit Same Day to premium products only ($8K annual savings)
-- Cap maximum discount at 20% ($23K annual savings)
-- Negotiate West region carrier rates ($15K annual savings)
-- Implement tiered pricing instead of blanket discounts
-
----
-
-### 6️⃣ Shipping & Logistics Analysis
-**Purpose**: Supply chain optimization and carrier performance
-
-**Shipping Modes**:
-- Standard Class: 1,456 orders, $19/order, 14.2% margin, 94% on-time
-- Second Class: 1,102 orders, $32/order, 11.8% margin, 91% on-time
-- First Class: 425 orders, $45/order, 9.3% margin, 88% on-time
-- Same Day: 220 orders, $59/order, 6.1% margin, 85% on-time
-
-**Carrier Performance**:
-- **FedEx**: $31/order, 93% on-time, 1.2% damage rate (Best reliability)
-- **UPS**: $31/order, 91% on-time, 1.5% damage rate
-- **USPS**: $24/order, 88% on-time, 2.1% damage rate (Lowest cost)
-- **DHL**: $35/order, 89% on-time, 1.8% damage rate
-
-**Product Category Shipping**:
-- Technology: $19/order (8.5 lbs avg)
-- Office Supplies: $20/order (12.3 lbs avg)
-- Furniture: $70/order (48.7 lbs avg) ⚠️
-
-**Monthly Trends**:
-- Peak: November ($9.5K, 322 orders)
-- Most Efficient: March ($29.35/order)
-- Budget Variance: +2.1% (mostly within target)
-
-**Actions**:
-- Optimize carrier mix: USPS for non-urgent, FedEx for time-sensitive ($5K savings)
-- Furniture shipping strategy: Review packaging, negotiate LTL rates
-- West Coast fulfillment center feasibility study
-
 ## Technical Implementation
 
 ### Data Architecture
@@ -262,28 +104,24 @@ Star Schema Design:
 ## Screenshots
 
 ### Executive Summary
-![Executive Dashboard Overview](Dashboard/Executive-Summary.png)
+![Executive Dashboard Overview](Dashboard/Executive_Summary.png)
 *Strategic KPIs, critical alerts, and performance scorecards*
 
 ### Customer Analysis
-![RFM Segmentation](images/customer-analysis.png)
+![RFM Segmentation](Dashboard/Customer_Analysis.png)
 *Customer health monitoring with RFM segmentation and CLV analysis*
 
 ### Category Performance
-![Product Profitability](images/category-performance.png)
+![Product Profitability](Dashboard/Category_Analysis.png)
 *Product portfolio analysis identifying top and bottom performers*
 
 ### Regional Performance
-![Geographic Intelligence](images/regional-performance.png)
+![Geographic Intelligence](Dashboard/Region_Analysis.png)
 *State-level profitability and shipping cost patterns*
 
 ### Profitability Analysis
-![Margin Deep-Dive](images/profitability-analysis.png)
+![Margin Deep-Dive](Dashboard/Profitability.png)
 *Cost structure breakdown and optimization opportunities*
-
-### Shipping Analysis
-![Logistics Optimization](images/shipping-analysis.png)
-*Carrier performance and shipping mode efficiency*
 
 ## Methodology
 
